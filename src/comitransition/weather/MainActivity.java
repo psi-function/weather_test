@@ -22,13 +22,6 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         locationShowActivityButton = (Button) findViewById(R.id.button) ;
-
-
-
-
-
-
-
     }
 }
 

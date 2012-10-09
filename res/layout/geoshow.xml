@@ -25,11 +25,11 @@
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
             android:text="@string/showCity"
-
-            android:onClick="getCity"
+            android:onClick="callAPI"
             />
     <TextView
             android:layout_margin="10px"
+
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
             android:text="@string/longitude"

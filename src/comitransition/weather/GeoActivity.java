@@ -55,8 +55,6 @@ public class GeoActivity extends Activity implements LocationListener {
         bestProvider=  locationManager.getBestProvider(criteria,false)    ;
         currentLoc=locationManager.getLastKnownLocation(bestProvider)       ;
 
-
-
         jsonField=(TextView) findViewById( R.id.jsonField)    ;
         longitudeField=(TextView)findViewById(R.id.longitudeField)   ;
         latitudeField=(TextView) findViewById(R.id.latitudeField)     ;
@@ -95,11 +93,9 @@ public class GeoActivity extends Activity implements LocationListener {
            finally{return null;}
 
     }
-       public void getCity(View view)
+       public void callAPI(View view)
        {
-
            obtainJSON(lng,lat);
-
        }
 
 
