@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">weather_test</string>
-    <string name="startButton">Show geodata</string>
+    <string name="startButton">START</string>
     <string name="lat">lat</string>
     <string name="longitude">lsdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffng</string>
     <string name="showCity">Show City</string>
