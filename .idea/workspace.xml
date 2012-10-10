@@ -16,13 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df746bfb-0c3d-4279-8e44-4b9733f885f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/background.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/comitransition/weather/R.java" afterPath="$PROJECT_DIR$/gen/comitransition/weather/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/geoshow.xml" afterPath="$PROJECT_DIR$/res/layout/geoshow.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/comitransition/weather/GeoActivity.java" afterPath="$PROJECT_DIR$/src/comitransition/weather/GeoActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/comitransition/weather/MainActivity.java" afterPath="$PROJECT_DIR$/src/comitransition/weather/MainActivity.java" />
     </list>
     <ignored path="weather_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,18 +84,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="background.png" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="background.png" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/drawable-mdpi/background.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeoActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GeoActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/comitransition/weather/GeoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="13" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="87" column="46" selection-start="2797" selection-end="2797" vertical-scroll-proportion="0.8825301">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,8 +190,8 @@
         <option value="$PROJECT_DIR$/src/comitransition/weather/Classes/Weather.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/geoshow.xml" />
-        <option value="$PROJECT_DIR$/src/comitransition/weather/GeoActivity.java" />
         <option value="$PROJECT_DIR$/src/comitransition/weather/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/comitransition/weather/GeoActivity.java" />
       </list>
     </option>
   </component>
@@ -640,17 +637,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.49734244" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.49126804" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.49734244" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.50341684" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -662,6 +658,7 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30675778" sideWeight="0.670068" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -757,9 +754,9 @@
         <state line="23" column="74" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/comitransition/weather/GeoActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/comitransition/weather/Classes/Weather.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="13" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0" />
+        <state line="89" column="32" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/AppData/Local/Android/android-sdk/platforms/android-10/android.jar!/org/apache/http/impl/client/DefaultHttpClient.class">
@@ -797,16 +794,18 @@
         <state line="5" column="117" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/comitransition/weather/Classes/Weather.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="32" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable-mdpi/background.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comitransition/weather/GeoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="46" selection-start="2797" selection-end="2797" vertical-scroll-proportion="0.8825301">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
