@@ -15,11 +15,13 @@ public final class R {
         public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int button=0x7f050004;
-        public static final int buttonShowCity=0x7f050002;
-        public static final int jsonField=0x7f050001;
-        public static final int latitudeField=0x7f050000;
-        public static final int longitudeField=0x7f050003;
+        public static final int T=0x7f050000;
+        public static final int button=0x7f050006;
+        public static final int buttonAdvice=0x7f050005;
+        public static final int buttonMore=0x7f050004;
+        public static final int city=0x7f050003;
+        public static final int date=0x7f050001;
+        public static final int wind=0x7f050002;
     }
     public static final class layout {
         public static final int geoshow=0x7f030000;
@@ -31,5 +33,7 @@ public final class R {
         public static final int longitude=0x7f040003;
         public static final int showCity=0x7f040004;
         public static final int startButton=0x7f040001;
+        public static final int temp_C=0x7f040005;
+        public static final int windspeedKmph=0x7f040006;
     }
 }

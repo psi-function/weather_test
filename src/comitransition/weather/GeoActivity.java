@@ -40,9 +40,9 @@ public class GeoActivity extends Activity implements LocationListener {
     private String bestProvider;
     private Location currentLoc;
     private TextView latitudeField;
-    private TextView longitudeField;
+    private TextView wind;
     private Button showCityButton;
-    private TextView jsonField;
+    private TextView T;
     double lng;
     double lat;
     private Weather weatherNow;
@@ -58,10 +58,9 @@ public class GeoActivity extends Activity implements LocationListener {
         setContentView(R.layout.geoshow);
 
 
-        jsonField = (TextView) findViewById(R.id.jsonField);
-        longitudeField = (TextView) findViewById(R.id.longitudeField);
-        latitudeField = (TextView) findViewById(R.id.latitudeField);
-        showCityButton = (Button) findViewById(R.id.buttonShowCity);
+        T = (TextView) findViewById(R.id.T);
+        wind = (TextView) findViewById(R.id.wind);
+
 
         Criteria criteria = new Criteria();
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
@@ -70,27 +69,34 @@ public class GeoActivity extends Activity implements LocationListener {
 
         weatherNow = new Weather();
 
-        updateWeather();
 
         weatherJSON = obtainJSONByGeo(lng, lat);
 
+        try {
+            weatherNow = updateWeather(weatherJSON);
+        } catch (JSONException jsone) {
+            jsone.printStackTrace();
+        }
 
+        T.setText(weatherNow.getTemperature());
+        wind.setText(weatherNow.getWindSpeed());
     }
 
-    public Weather updateWeather(JSONObject jsonObject) throws JSONException{
+    public Weather updateWeather(JSONObject jsonObject) throws JSONException {
 
-        JSONObject current_condition=jsonObject.getJSONObject("current_condition");
-        String  temperature_C=current_condition.get("temp_C").toString();
-        String wind_speed=current_condition.get("windspeedKmph")    .toString();
+        JSONObject current_condition = jsonObject.getJSONObject("current_condition");
+        String temperature_C = current_condition.get("temp_C").toString();
+        String wind_speed = current_condition.get("windspeedKmph").toString();
+
+        Weather weather = new Weather();
+        weather.setTemperature(Integer.parseInt(temperature_C));
+        weather.setWindSpeed(Integer.parseInt(wind_speed));
+        return weather;
 
     }
-
 
 
     //{ "data": { "current_condition": [ {"cloudcover": "61", "humidity": "71", "observation_time": "12:52 PM", "precipMM": "0.2", "pressure": "1012", "temp_C": "29", "temp_F": "85", "visibility": "10", "weatherCode": "353",  "weatherDesc": [ {"value": "Light rain shower" } ],  "weatherIconUrl": [ {"value": "http:\/\/www.worldweatheronline.com\/images\/wsymbols01_png_64\/wsymbol_0009_light_rain_showers.png" } ], "winddir16Point": "SW", "winddirDegree": "218", "windspeedKmph": "16", "windspeedMiles": "10" } ],  "request": [ {"query": "Lat 0.00 and Lon 0.00", "type": "LatLon" } ] }}
-
-
-
 
 
     public void updateWeather() {
@@ -101,7 +107,7 @@ public class GeoActivity extends Activity implements LocationListener {
             onLocationChanged(currentLoc);
         } else {
             latitudeField.setText("Location not available");
-            longitudeField.setText("Location not available");
+
         }
 
     }
@@ -165,7 +171,7 @@ public class GeoActivity extends Activity implements LocationListener {
         lat = location.getLatitude();
         lng = location.getLongitude();
         latitudeField.setText(String.valueOf(lat));
-        longitudeField.setText(String.valueOf(lng));
+
     }
 
     @Override
