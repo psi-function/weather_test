@@ -43,8 +43,8 @@ public class GeoActivity extends Activity implements LocationListener {
     private Location currentLoc;
     private TextView wind;
     private TextView T;
-    double lng;
-    double lat;
+    private double lng;
+    private double lat;
     private Weather weatherNow;
     private HttpClient client;
     private HttpGet httpGet;
@@ -64,9 +64,9 @@ public class GeoActivity extends Activity implements LocationListener {
         updateWeather();
 
 
-     weatherJSON = obtainJSONByGeo(lng, lat);
+        weatherJSON = obtainJSONByGeo(lng, lat);
 
-   try {
+        try {
             weatherNow = updateWeather(weatherJSON);
         } catch (JSONException jsone) {
             jsone.printStackTrace();
@@ -78,10 +78,10 @@ public class GeoActivity extends Activity implements LocationListener {
     }
 
     public Weather updateWeather(JSONObject jsonObject) throws JSONException {
-       JSONObject data = jsonObject.getJSONObject("data");
+        JSONObject data = jsonObject.getJSONObject("data");
         JSONArray current_condition = data.getJSONArray("current_condition");
 
-        JSONObject cur = (JSONObject)current_condition.get(0);
+        JSONObject cur = (JSONObject) current_condition.get(0);
         String temperature_C = cur.get("temp_C").toString();
         String wind_speed = cur.get("windspeedKmph").toString();
 
@@ -97,14 +97,12 @@ public class GeoActivity extends Activity implements LocationListener {
     //{ "data": { "current_condition": [ {"cloudcover": "61", "humidity": "71", "observation_time": "12:52 PM", "precipMM": "0.2", "pressure": "1012", "temp_C": "29", "temp_F": "85", "visibility": "10", "weatherCode": "353",  "weatherDesc": [ {"value": "Light rain shower" } ],  "weatherIconUrl": [ {"value": "http:\/\/www.worldweatheronline.com\/images\/wsymbols01_png_64\/wsymbol_0009_light_rain_showers.png" } ], "winddir16Point": "SW", "winddirDegree": "218", "windspeedKmph": "16", "windspeedMiles": "10" } ],  "request": [ {"query": "Lat 0.00 and Lon 0.00", "type": "LatLon" } ] }}
 
 
-
-
     protected void onResume() {
         super.onResume();
         locationManager.requestLocationUpdates(bestProvider, 400, 1, this);
     }
-    public void updateWeather()
-    {
+
+    public void updateWeather() {
 
         criteria = new Criteria();
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
@@ -118,6 +116,7 @@ public class GeoActivity extends Activity implements LocationListener {
         }
 
     }
+
     public JSONObject obtainJSONByGeo(double longitude, double latitude) {
         try {
 
