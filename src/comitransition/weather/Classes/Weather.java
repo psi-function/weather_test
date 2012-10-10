@@ -66,15 +66,15 @@ public class Weather {
         this.city = city;
     }
 
-    public int getTemperature() {
+    public String getTemperature() {
         return temperature;
     }
 
-    public void setTemperature(int temperature) {
+    public void setTemperature(String temperature) {
         this.temperature = temperature;
     }
 
-    private int temperature;
+    private String temperature;
     private String date;
     private String time;
     private int windSpeed;
