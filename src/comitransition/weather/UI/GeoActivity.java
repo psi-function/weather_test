@@ -45,7 +45,7 @@ public class GeoActivity extends Activity {
         today = new Day(this);
         today.updateDayForecast(geoManager.checkWeather());
 
-        Date currentTime = new Date(System.currentTimeMillis());
+
 
 
               //   buttonAdvice.setText(today.getWeatherList().size());

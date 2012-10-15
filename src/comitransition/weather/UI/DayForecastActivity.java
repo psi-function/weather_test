@@ -10,6 +10,7 @@ import comitransition.weather.Classes.Weather;
 import comitransition.weather.R;
 import comitransition.weather.geolocation.GeoManager;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 /**
@@ -27,12 +28,11 @@ public class DayForecastActivity extends Activity {
         super.onCreate(savedInstanceState);
 
 
-        ScrollView scrollView = new ScrollView(this); //root scroll
+        ScrollView scrollView = new ScrollView(this); //root scroll    :TODO динамически строить вью
         ViewGroup.LayoutParams scrollViewParam = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
 
         LinearLayout linearLayout = new LinearLayout(this);  //root linear
         linearLayout.setOrientation(LinearLayout.VERTICAL);
-
 
         GeoManager geoManager = new GeoManager(this);
         Weather weatherNow = new Weather();
@@ -40,7 +40,6 @@ public class DayForecastActivity extends Activity {
         today.updateDayForecast(geoManager.checkWeather());
 
         LinearLayout.LayoutParams linearParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.MATCH_PARENT);
-
 
         for(Weather hourForecast:today.getWeatherList())
         {
@@ -60,13 +59,11 @@ public class DayForecastActivity extends Activity {
             temperatureC.setText("  -    "+hourForecast.getAvgTempC()+" C");
             temperatureC.setLayoutParams(linearParams);
 
-
             innerLinears.addView(timandate);
             innerLinears.addView(temperatureC);
             innerLinears.setClickable(true);
 
             linearLayout.addView(innerLinears);
-
         }
 
         scrollView.addView(linearLayout, linearParams);
@@ -75,8 +72,8 @@ public class DayForecastActivity extends Activity {
 
         setContentView(scrollView, scrollViewParam);
 
-
     }
+
 
 
 

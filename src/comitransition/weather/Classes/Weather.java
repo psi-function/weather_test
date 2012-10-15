@@ -3,15 +3,11 @@ package comitransition.weather.Classes;
 import java.security.PrivateKey;
 import java.sql.Date;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Hp
- * Date: 09.10.12
- * Time: 1:15
- * To change this template use File | Settings | File Templates.
- */
+
 public class Weather {
 
+    private String country;
+    private String city;
     private long timestamp;
     private int maxTempC;
     private int maxTempF;
@@ -37,8 +33,23 @@ public class Weather {
     private int windSpeedMaxMPH;
     private int windSpeedMinMPH;
     private String description;
-    private long sunrise;
-    private long sunset;
+
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
 
     public long getTimestamp() {
         return timestamp;
