@@ -15,27 +15,8 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df746bfb-0c3d-4279-8e44-4b9733f885f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/bg_layout_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/layout_load.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/dayforecast.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/xml/gradient.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comitransition/weather/Classes/Day.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comitransition/weather/UI/DayForecastActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comitransition/weather/UI/GeoActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comitransition/weather/geolocation/GeoManager.java" />
-      <change type="DELETED" beforePath="C:\Users\Hp\Documents\GitHub\weather_test\src\comitransition\weather\GeoActivity.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Hp\Documents\GitHub\weather_test\src\comitransition\weather\MainActivity.java" afterPath="$PROJECT_DIR$/src/comitransition/weather/UI/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" />
+    <list default="true" id="df746bfb-0c3d-4279-8e44-4b9733f885f2" name="Default" comment="finally working">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/comitransition/weather/R.java" afterPath="$PROJECT_DIR$/gen/comitransition/weather/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/geoshow.xml" afterPath="$PROJECT_DIR$/res/layout/geoshow.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/comitransition/weather/Classes/Weather.java" afterPath="$PROJECT_DIR$/src/comitransition/weather/Classes/Weather.java" />
     </list>
     <ignored path="weather_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -183,7 +164,7 @@
       <file leaf-file-name="DayForecastActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/comitransition/weather/UI/DayForecastActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="3" selection-start="2436" selection-end="2436" vertical-scroll-proportion="0.81914896">
+            <state line="80" column="3" selection-start="2436" selection-end="2436" vertical-scroll-proportion="0.92771083">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -684,7 +665,11 @@
       <created>1349904705574</created>
       <updated>1349904705574</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finally working">
+      <created>1350284757840</created>
+      <updated>1350284757840</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -709,7 +694,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.49126804" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953683" sideWeight="0.7363946" order="6" side_tool="false" content_ui="tabs" />
@@ -719,15 +704,15 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5003796" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.48215643" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.079931974" sideWeight="0.49430525" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953683" sideWeight="0.670068" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20273349" sideWeight="0.74489796" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25510204" sideWeight="0.4851936" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20273349" sideWeight="0.670068" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25510204" sideWeight="0.4851936" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -903,7 +888,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/comitransition/weather/UI/DayForecastActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="3" selection-start="2436" selection-end="2436" vertical-scroll-proportion="0.81914896">
+        <state line="80" column="3" selection-start="2436" selection-end="2436" vertical-scroll-proportion="0.92771083">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
