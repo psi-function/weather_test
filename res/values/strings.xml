@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">weather_test</string>
+    <string name="startButton">Start Service</string>
+    <string name="lat">lat</string>
+    <string name="longitude">lsdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffng</string>
+    <string name="showCity">Show City</string>
+    <string name="temp_C">7 C</string>
+    <string name="windspeedKmph">250m/s</string>
 </resources>

@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-        >
-    <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Hello World, MainActivity"
-            />
-</LinearLayout>
+              android:background="#87cefa"
+              android:orientation="vertical" >
 
+    <ImageView android:scaleType="fitCenter"
+               android:layout_height="fill_parent"
+               android:layout_width="fill_parent"
+               android:background="@xml/gradient"
+               android:src="@drawable/layout_load"
+           />
+    <Button
+            android:gravity="center"
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/startButton"
+            android:onClick="switchActivity"
+            />
+</RelativeLayout>
