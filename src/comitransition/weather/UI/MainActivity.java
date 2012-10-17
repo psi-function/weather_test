@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import comitransition.weather.R;
+import comitransition.weather.geolocation.GeoManager;
 
 public class MainActivity extends Activity {
     private Button locationShowActivityButton;
@@ -14,7 +15,7 @@ public class MainActivity extends Activity {
      * Called when the activity is first created.
      */
     public void switchActivity( View view){
-
+        startService(new Intent(this, GeoManager.class));
         Intent intent=new Intent(view.getContext(),GeoActivity.class)  ;
                 startActivity(intent);
     }
